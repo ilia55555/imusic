@@ -3,17 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>تشخیص نت موسیقی</title>
+  <title>نت‌نویسی آهنگ</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>🎵 تشخیص نت موسیقی از صدا 🎵</h1>
-    <button onclick="start()">🎤 شروع دریافت صدا</button>
-    <div class="note-box">
-      <p id="note">نت: --</p>
-    </div>
-    <p class="footer">ساخته‌شده با عشق 💙 برای موسیقی‌دانان</p>
+    <h1>نت‌نویسی آهنگ</h1>
+    <button onclick="start()">شروع ضبط صدا</button>
+    <div id="live-note">در حال تشخیص: --</div>
+    <div class="note-log" id="note-log"></div>
   </div>
   <script src="script.js"></script>
 </body>
